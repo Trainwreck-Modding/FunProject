@@ -1,0 +1,65 @@
+[04May2019 15:01:46.001] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 25.0.191, --version, MOD_DEV, --assetIndex, 1.13.1, --assetsDir, /Users/kylekovalchick/.gradle/caches/forge_gradle/assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[04May2019 15:01:46.004] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_112
+[04May2019 15:01:46.203] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04May2019 15:01:47.038] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/kylekovalchick/.gradle/caches/forge_gradle/assets, --assetIndex, 1.13.1, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[04May2019 15:01:53.626] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[04May2019 15:02:01.109] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
+[04May2019 15:02:03.041] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[04May2019 15:02:03.088] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 25.0.191, for MC 1.13.2 with MCP 20190213.203750
+[04May2019 15:02:03.089] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.191 Initialized
+[04May2019 15:02:03.274] [Client thread/INFO] [com.example.examplemod.ExampleMod/]: HELLO from Register Block
+[04May2019 15:02:03.290] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /Users/kylekovalchick/Desktop/forge-1.13.2-25.0.191-mdk/run/config/forge-client.toml is not correct. Correcting
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
+[04May2019 15:02:03.291] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
+[04May2019 15:02:03.292] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
+[04May2019 15:02:03.292] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.allowEmissiveItems was corrected from null to true
+[04May2019 15:02:03.300] [modloading-worker-1/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM PREINIT
+[04May2019 15:02:03.300] [modloading-worker-1/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[04May2019 15:02:03.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04May2019 15:02:03.485] [modloading-worker-1/INFO] [com.example.examplemod.ExampleMod/]: Got game settings net.minecraft.client.GameSettings@59eea2d
+[04May2019 15:02:03.499] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: main, forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-recomp.jar, Default
+[04May2019 15:02:04.115] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/]: Starting up SoundSystem version 201809301515...
+[04May2019 15:02:04.331] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: Initializing No Sound
+[04May2019 15:02:04.332] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: (Silent Mode)
+[04May2019 15:02:04.341] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Target: null
+[04May2019 15:02:04.341] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [examplemod] Starting version check at http://myurl.me/
+[04May2019 15:02:04.482] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: OpenAL initialized.
+[04May2019 15:02:04.721] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
+[04May2019 15:02:04.726] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Sound engine started
+[04May2019 15:02:05.067] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921) ~[?:1.8.0_112]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[?:1.8.0_112]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:190) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_112]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:141) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[?:1.8.0_112]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_112]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:157) ~[?:?]
+	... 3 more
+[04May2019 15:02:06.977] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Max texture size: 16384
+[04May2019 15:02:07.681] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Created: 512x512 textures-atlas
+[04May2019 15:02:09.555] [modloading-worker-1/INFO] [com.example.examplemod.ExampleMod/]: Hello world from the MDK
+[04May2019 15:02:09.555] [modloading-worker-1/INFO] [com.example.examplemod.ExampleMod/]: Got IMC [Hello world]
+[04May2019 15:02:11.082] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[04May2019 15:02:13.292] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[04May2019 15:02:28.105] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[04May2019 15:02:28.694] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem shutting down...
+[04May2019 15:02:28.923] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem Author: Paul Lamb, www.paulscode.com
+[04May2019 15:02:28.936] [Thread-4/FATAL] [net.minecraftforge.fml.packs.ModFileResourcePack/]: Failed to clean up tempdir /var/folders/kk/fh4g57w52f7f612v1cblxc0h0000gp/T/modpacktmp1413656298659537538
