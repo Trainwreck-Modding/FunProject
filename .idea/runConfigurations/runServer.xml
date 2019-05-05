@@ -4,10 +4,10 @@
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting"/>
     <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP"/>
     <option name="PROGRAM_PARAMETERS" value=""/>
-    <option name="WORKING_DIRECTORY" value="/Users/kylekovalchick/Desktop/repos/FunProject/run"/>
+    <option name="WORKING_DIRECTORY" value="C:\Users\CrazyGrape\Documents\ALL MODDING\FunProject\run"/>
     <module name="FunProject_main"/>
     <envs>
-      <env name="MOD_CLASSES" value="funproject%%/Users/kylekovalchick/Desktop/repos/FunProject/build/resources/main:funproject%%/Users/kylekovalchick/Desktop/repos/FunProject/build/classes/java/main:twl%%/Users/kylekovalchick/Desktop/repos/FunProject/build/resources/main:twl%%/Users/kylekovalchick/Desktop/repos/FunProject/Trainwreck-Lib/build/resources:twl%%/Users/kylekovalchick/Desktop/repos/FunProject/build/classes/java/main:twl%%/Users/kylekovalchick/Desktop/repos/FunProject/Trainwreck-Lib/build/classes"/>
+      <env name="MOD_CLASSES" value="funproject%%C:\Users\CrazyGrape\Documents\ALL MODDING\FunProject\build\resources\main;funproject%%C:\Users\CrazyGrape\Documents\ALL MODDING\FunProject\build\classes\java\main;twl%%C:\Users\CrazyGrape\Documents\ALL MODDING\FunProject\Trainwreck-Lib\build\resources\main;twl%%C:\Users\CrazyGrape\Documents\ALL MODDING\FunProject\Trainwreck-Lib\build\classes\java\main"/>
       <env name="MCP_MAPPINGS" value="snapshot_20180921-1.13"/>
       <env name="MCP_VERSION" value="20190213.203750"/>
       <env name="FORGE_VERSION" value="25.0.191"/>

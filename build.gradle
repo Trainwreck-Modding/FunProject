@@ -55,7 +55,7 @@ minecraft {
                     resources = null
                     classes = null
                     resources project.file('Trainwreck-Lib/build/resources/main')
-                    classes project.file('Trainwreck-Lib/build/classes/main')
+                    classes project.file('Trainwreck-Lib/build/classes/java/main')
 
                 }
             }
@@ -79,7 +79,7 @@ minecraft {
                     resources = null
                     classes = null
                     resources project.file('Trainwreck-Lib/build/resources/main')
-                    classes project.file('Trainwreck-Lib/build/classes/main')
+                    classes project.file('Trainwreck-Lib/build/classes/java/main')
                 }
             }
         }

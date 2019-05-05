@@ -1,49 +1,32 @@
-[05May2019 01:10:14.559] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 25.0.191, --version, MOD_DEV, --assetIndex, 1.13.1, --assetsDir, /Users/kylekovalchick/.gradle/caches/forge_gradle/assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[05May2019 01:10:14.564] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_112
-[05May2019 01:10:14.744] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[05May2019 01:10:15.333] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/kylekovalchick/.gradle/caches/forge_gradle/assets, --assetIndex, 1.13.1, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[05May2019 01:10:17.267] [pool-2-thread-1/ERROR] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/SCAN]: Exception scanning /Users/kylekovalchick/Desktop/repos/FunProject/Trainwreck-Lib/build/classes/main
-java.nio.file.NoSuchFileException: /Users/kylekovalchick/Desktop/repos/FunProject/Trainwreck-Lib/build/classes/main
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_112]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_112]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_112]
-	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:1.8.0_112]
-	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144) ~[?:1.8.0_112]
-	at java.nio.file.Files.readAttributes(Files.java:1737) ~[?:1.8.0_112]
-	at java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:219) ~[?:1.8.0_112]
-	at java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:276) ~[?:1.8.0_112]
-	at java.nio.file.FileTreeWalker.walk(FileTreeWalker.java:322) ~[?:1.8.0_112]
-	at java.nio.file.FileTreeIterator.<init>(FileTreeIterator.java:72) ~[?:1.8.0_112]
-	at java.nio.file.Files.find(Files.java:3687) ~[?:1.8.0_112]
-	at net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator.scanIndividualPath(ExplodedDirectoryLocator.java:94) ~[forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-launcher.jar:?]
-	at net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator.lambda$scanFile$3(ExplodedDirectoryLocator.java:88) ~[forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-launcher.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_112]
-	at net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator.scanFile(ExplodedDirectoryLocator.java:88) ~[forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-launcher.jar:?]
-	at net.minecraftforge.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:148) ~[forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-launcher.jar:?]
-	at net.minecraftforge.fml.loading.moddiscovery.Scanner.scan(Scanner.java:46) ~[forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-launcher.jar:?]
-	at net.minecraftforge.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:144) ~[forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-launcher.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_112]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
-[05May2019 01:10:23.217] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[05May2019 01:10:30.839] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
-[05May2019 01:10:32.473] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
-[05May2019 01:10:32.520] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 25.0.191, for MC 1.13.2 with MCP 20190213.203750
-[05May2019 01:10:32.520] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.191 Initialized
-[05May2019 01:10:32.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[05May2019 01:10:33.056] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-recomp.jar, main, main, Default
-[05May2019 01:10:33.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Target: null
-[05May2019 01:10:33.475] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/]: Starting up SoundSystem version 201809301515...
-[05May2019 01:10:33.998] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: Initializing No Sound
-[05May2019 01:10:33.999] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: (Silent Mode)
-[05May2019 01:10:34.096] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: OpenAL initialized.
-[05May2019 01:10:34.390] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
-[05May2019 01:10:34.396] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Sound engine started
-[05May2019 01:10:37.403] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Max texture size: 16384
-[05May2019 01:10:38.298] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Created: 512x512 textures-atlas
-[05May2019 01:10:41.028] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[05May2019 01:10:42.712] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[05May2019 01:13:08.770] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[05May2019 01:13:09.338] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem shutting down...
-[05May2019 01:13:09.564] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem Author: Paul Lamb, www.paulscode.com
+[05May2019 13:06:14.940] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 25.0.191, --version, MOD_DEV, --assetIndex, 1.13.1, --assetsDir, C:\Users\CrazyGrape\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[05May2019 13:06:14.946] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_201
+[05May2019 13:06:15.298] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05May2019 13:06:15.931] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\CrazyGrape\.gradle\caches\forge_gradle\assets, --assetIndex, 1.13.1, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[05May2019 13:06:18.178] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[05May2019 13:06:26.534] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[05May2019 13:06:26.560] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
+[05May2019 13:06:28.189] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[05May2019 13:06:28.250] [modloading-worker-11/INFO] [xyz.trainwreck.trainwrecklib.TrainWreckLib/]: I exist now.
+[05May2019 13:06:28.270] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 25.0.191, for MC 1.13.2 with MCP 20190213.203750
+[05May2019 13:06:28.271] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.191 Initialized
+[05May2019 13:06:28.695] [Client thread/INFO] [xyz.trainwreck.trainwrecklib.TrainWreckLib/]: HELLO from Register Block
+[05May2019 13:06:28.723] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[05May2019 13:06:28.841] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[05May2019 13:06:28.890] [Client thread/INFO] [xyz.trainwreck.trainwrecklib.TrainWreckLib/]: yo yo hombro
+[05May2019 13:06:28.915] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: forge-1.13.2-25.0.191_mapped_snapshot_20180921-1.13-recomp.jar, main, main, Default
+[05May2019 13:06:29.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Target: null
+[05May2019 13:06:30.121] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/]: Starting up SoundSystem version 201809301515...
+[05May2019 13:06:30.343] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: Initializing No Sound
+[05May2019 13:06:30.344] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: (Silent Mode)
+[05May2019 13:06:30.436] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: OpenAL initialized.
+[05May2019 13:06:30.725] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
+[05May2019 13:06:30.729] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Sound engine started
+[05May2019 13:06:35.084] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Max texture size: 16384
+[05May2019 13:06:36.992] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Created: 512x512 textures-atlas
+[05May2019 13:06:39.431] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[05May2019 13:06:39.498] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[05May2019 13:06:40.066] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[05May2019 13:06:43.103] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[05May2019 13:06:43.745] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem shutting down...
+[05May2019 13:06:43.955] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem Author: Paul Lamb, www.paulscode.com
+[05May2019 13:06:43.985] [Thread-4/FATAL] [net.minecraftforge.fml.packs.ModFileResourcePack/]: Failed to clean up tempdir C:\Users\CRAZYG~1\AppData\Local\Temp\modpacktmp2459537442978746851
