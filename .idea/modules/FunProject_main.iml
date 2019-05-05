@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="FunProject:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.yourname.modid" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="FunProject:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="xyz.trainwreck.funproject" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../out/production/classes" />
     <exclude-output />
@@ -9,6 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Trainwreck-Lib_main" />
     <orderEntry type="library" name="Gradle: net.minecraftforge:forge:1.13.2-25.0.191_mapped_snapshot_20180921-1.13" level="project" />
     <orderEntry type="library" name="Gradle: net.minecraftforge:forge:launcher:1.13.2-25.0.191_mapped_snapshot_20180921-1.13" level="project" />
     <orderEntry type="library" name="Gradle: net.minecraft:client:extra:1.13.2" level="project" />

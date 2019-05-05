@@ -14,10 +14,14 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.0'
-group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+group = 'xyz.trainwreck.funproject' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'funproject'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+configurations.all {
+    resolutionStrategy.cacheDynamicVersionsFor 7200, 'hours'
+}
 
 minecraft {
     // The mappings can be changed at any time, and must be in the following format.
@@ -34,7 +38,7 @@ minecraft {
     // These can be tweaked, removed, or duplicated as needed.
     runs {
         client {
-            workingDirectory project.file('run')
+            workingDirectory project.file('run').canonicalPath
 
             // Recommended logging data for a userdev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
@@ -43,14 +47,22 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                funproject {
                     source sourceSets.main
+                }
+                twl {
+                    source sourceSets.main
+                    resources = null
+                    classes = null
+                    resources project.file('Trainwreck-Lib/build/resources/main')
+                    classes project.file('Trainwreck-Lib/build/classes/main')
+
                 }
             }
         }
 
         server {
-            workingDirectory project.file('run')
+            workingDirectory project.file('run').canonicalPath
 
             // Recommended logging data for a userdev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
@@ -59,13 +71,21 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                examplemod {
+                funproject {
                     source sourceSets.main
+                }
+                twl {
+                    source sourceSets.main
+                    resources = null
+                    classes = null
+                    resources project.file('Trainwreck-Lib/build/resources/main')
+                    classes project.file('Trainwreck-Lib/build/classes/main')
                 }
             }
         }
     }
 }
+
 
 dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
@@ -91,13 +111,14 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
+    compile project(":Trainwreck-Lib")
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
 jar {
     manifest {
         attributes([
-            "Specification-Title": "examplemod",
+            "Specification-Title": "funproject",
             "Specification-Vendor": "examplemodsareus",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,

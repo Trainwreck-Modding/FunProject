@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="FunProject_main" target="1.8" />
       <module name="FunProject_test" target="1.8" />
+      <module name="Trainwreck-Lib_main" target="1.8" />
+      <module name="Trainwreck-Lib_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

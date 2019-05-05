@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FunProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FunProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunProject.iml" filepath="$PROJECT_DIR$/FunProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FunProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FunProject_main.iml" group="FunProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FunProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FunProject_test.iml" group="FunProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Trainwreck-Lib/Trainwreck-Lib.iml" filepath="$PROJECT_DIR$/.idea/modules/Trainwreck-Lib/Trainwreck-Lib.iml" group="Trainwreck-Lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Trainwreck-Lib/Trainwreck-Lib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Trainwreck-Lib/Trainwreck-Lib_main.iml" group="Trainwreck-Lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Trainwreck-Lib/Trainwreck-Lib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Trainwreck-Lib/Trainwreck-Lib_test.iml" group="Trainwreck-Lib" />
     </modules>
   </component>
 </project>
